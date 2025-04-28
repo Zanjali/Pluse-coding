@@ -112,13 +112,23 @@ delay(ms)
 → Adds a controlled delay between page interactions to prevent detection.
 
 🛠 Troubleshooting
+Scraper blocked or page not loading
+→ Update puppeteer-extra-plugin-stealth to the latest version.
+→ Try adding longer delays between page actions.
 
-Problem	                                              Solution
-Scraper blocked or page not loading?	                 Update puppeteer-extra-plugin-stealth.
-No reviews found?	                                     Could you double-check the company name spelling or date range?
-Internet unstable?	                                   Make sure your network is strong during scraping.
-Wrong date format error?	                             Could you make sure the date format is yyyy-mm-dd? Example: 2024-05-20.
+No reviews found
+→ Check the company name spelling.
+→ Ensure reviews exist for the selected date range.
 
+Internet unstable
+→ Ensure you have a strong and stable internet connection during scraping.
+
+Wrong date format error
+→ Enter dates strictly in yyyy-mm-dd format (e.g., 2025-04-28).
+
+Empty data.json file
+→ The company might not have reviews for the selected time range.
+→ Try expanding the date range.
 
 🤝 Contributing
 Pull requests are welcome!
